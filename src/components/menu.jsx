@@ -221,7 +221,7 @@ function Menu({ stateChange, stateToggle, view, running, user, unsafe, unsafeOnl
             <InputLink
                className="menu-link --support"
                label="No Ads. Please consider a coffee tip ☕"
-               href="https://www.buymeacoffee.com/cokolele"
+               href="https://www.buymeacoffee.com/binaryconstruct"
                onClick={menu.onSupportLinkClick}
             />
             <InputLink

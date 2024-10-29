@@ -1,7 +1,13 @@
 {
-    "appVersion": "3.1.7",
-    "ingameSupportedVersion": "1.4.3",
+    "appVersion": "4.0.0",
+    "ingameSupportedVersion": "1.4.4",
     "changelog": {
+        "4.0.0": {
+            "date": "Oct 29, 2024",
+            "changes": [
+                "Updated for the latest Terraria (1.4.4)"
+            ]
+        },
         "3.1.7": {
             "date": "May 15, 2022",
             "changes": [
