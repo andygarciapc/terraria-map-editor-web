@@ -94,7 +94,7 @@ function OptionbarOptionWorldPoint({ stateChange, state, setState, stateNPCs, he
 export default connect(
    state => {
       return {
-         stateNPCs: state.canvas.worldObject.NPCs,
+         stateNPCs: state.canvas.worldObject.NPCs.NPCs,
          header: state.canvas.worldObject.header,
          onCanvasClick: state.canvas.events.click
       };

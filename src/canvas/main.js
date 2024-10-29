@@ -201,8 +201,8 @@ let Main = new function() {
                 this.state.canvas.worldObject.header.spawnTileX * this.tilePixelRatio - this.posX * this.tilePixelRatio - temp1 / 2 + this.tilePixelRatio / 2, this.state.canvas.worldObject.header.spawnTileY * this.tilePixelRatio - this.posY * this.tilePixelRatio - temp2, temp1, temp2);
         }
 
-        if (this.state.canvas.worldObject.NPCs && this.state.layersVisibility.NPCs)
-            this.state.canvas.worldObject.NPCs.forEach(npc => {
+        if (this.state.canvas.worldObject.NPCs.NPCs && this.state.layersVisibility.NPCs)
+            this.state.canvas.worldObject.NPCs.NPCs.forEach(npc => {
                 if (!NPCsSprites[npc.id])
                     temp0 = NPCsSprites.unknown;
                 else if (npc.variationIndex !== undefined && typeof NPCsSprites[npc.id][npc.variationIndex] == "object")
