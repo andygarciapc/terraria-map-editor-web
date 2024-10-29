@@ -9,8 +9,6 @@ import "/components/styles/modal.css";
 import ModalSignin from "/components/modal/signin.jsx";
 import ModalSignup from "/components/modal/signup.jsx";
 import ModalAccount from "/components/modal/account.jsx";
-import ErrorReport from "/components/modal/errorReport.jsx";
-import SuggestionReport from "/components/modal/suggestionReport.jsx";
 import SavingDisclaimer from "/components/modal/savingDisclaimer.jsx";
 import ReplaceBlock from "/components/modal/replaceBlock.jsx";
 import ModalConfirmation from "/components/modal/confirmation.jsx";
@@ -28,14 +26,6 @@ const config = {
    account: {
       label: "Account",
       View: ModalAccount
-   },
-   errorreport: {
-      label: "Error report",
-      View: ErrorReport
-   },
-   suggestionreport: {
-      label: "Suggestions report",
-      View: SuggestionReport
    },
    savingdisclaimer: {
       label: "Please be careful",

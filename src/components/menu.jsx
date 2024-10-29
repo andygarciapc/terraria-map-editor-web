@@ -151,11 +151,11 @@ function Menu({ stateChange, stateToggle, view, running, user, unsafe, unsafeOnl
       Report: {
          "Error": {
             type: "link",
-            onClick: () => { stateChange("modal", "errorreport") }
+            onClick: () => { window.open("https://github.com/TEdit/terraria-map-editor-web/issues", "_blank") }
          },
          "Suggestions or feature requests": {
             type: "link",
-            onClick: () => { stateChange("modal", "suggestionreport") }
+            onClick: () => { window.open("https://github.com/TEdit/terraria-map-editor-web/issues", "_blank") }
          }
       }
    };
