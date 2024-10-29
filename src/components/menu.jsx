@@ -229,12 +229,12 @@ function Menu({ stateChange, stateToggle, view, running, user, unsafe, unsafeOnl
                label="Changelog"
                onClick={() => stateChange("modal", "changelog")}
             />
-            <InputLink
+            {/* <InputLink
                className="menu-link"
                label={user !== null ? user.username : "Account"}
                Icon={<AccountBoxIcon size={15}/>}
                onClick={() => stateChange("modal", user ? "account" : "signin")}
-            />
+            /> */}
             <InputLink
                className="menu-link"
                label="Discord"
