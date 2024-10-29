@@ -167,7 +167,7 @@ function SidebarNPCAvatar({ id, variation }) {
 export default connect(
    state => {
       return {
-         stateNPCs: state.canvas.worldObject.NPCs,
+         stateNPCs: state.canvas.worldObject.NPCs.NPCs,
          headerSpawnPoint: [
             state.canvas.worldObject.header.spawnTileX,
             state.canvas.worldObject.header.spawnTileY
